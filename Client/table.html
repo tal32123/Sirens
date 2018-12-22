@@ -1,0 +1,31 @@
+<table>
+  <thead>
+    <tr>
+        <th>
+          Description
+        </th>
+        <th>
+        Severity
+      </th>
+      <th>
+          Start
+      </th>
+      <th>
+          End
+      </th>
+      <th>
+          ID
+      </th>
+    </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="x in sirensArray">
+        <td>{{x.description}}</td>
+        <td>{{x.type}}</td>
+        <td>{{x.start}}</td>
+        <td>{{x.end}}</td>
+        <td>{{x.id}}</td>
+
+      </tr>
+    </tbody>
+  </table>

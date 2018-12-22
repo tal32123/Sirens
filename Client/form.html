@@ -1,0 +1,49 @@
+<div class="container" ng-app="myapp" ng-controller="sirenController">
+  <h1 class="jumbotron">Sirens Client</h1>
+  <form id="issueDescInput">
+    <div class="row">
+      <div class="col-sm-2">
+        <div class="form-group">
+          <label for="issueDescInput">Description</label>
+          <input type="text" class="form-control" id="issueDescInput"
+            placeholder="Describe the issue ..." ng-model="issueName">
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <div
+          class="form-group">
+          <label
+            for="issueDescInput">Severity</label>
+          <select class="form-control" id="issueSeverityInput">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+          <h3> {{issueName}} </h3>
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <div class="form-group">
+          <label for="issueDescInput">Start Date</label>
+          <input type="text" class="form-control" id="issueDateInput"
+            placeholder="Enter the start date ..." ng-model="issueDate">
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <div class="form-group">
+          <label for="issueDescInput">End Date</label>
+          <input type="text" class="form-control" id="issueEndInput"
+            placeholder="Enter end date ..." ng-model="issueEnd">
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <div class="form-group" style="margin-top: 25px">
+      <button type="submit" class="btn btn-primary" ng-click="submit()">Submit</button>
+        </div>
+    </div>
+    </div>
+  </form>
+
+</div>
