@@ -6,32 +6,30 @@ app.controller("sirenController", ($scope) => {
     $scope.sirensArray = [];
 
   var siren = {
-   description: "D",
-   type: 1,
-   start: "S Date",
-   end: "E Date",
-   id: "ID",
-   test: "TEST CONTROLLER"
+   description: $scope.issueName,
+   severity: $scope.severity,
+   start: $scope.issueDate,
+   end: $scope.issueEnd,
+   id: chance.guid(),
   };
 
+$scope.severityLevels = [1, 2, 3, 4, 5];
 
-
-  $scope.siren = siren;
+    $scope.siren= siren;
 
 
   $scope.submit = function() {
-      var issue = $scope.issueName;
     var identity = chance.guid();
     var submittedSiren = {
-     description: issue,
-      type: 1,
-     start: "S Date",
-      end: "E Date",
+     description: $scope.issueName,
+      severity: $scope.severity,
+     start: $scope.issueDate,
+      end: $scope.issueEnd,
       id: identity,
-      test: "TEST CONTROLLER"
     };
     console.log($scope.sirensArray);
     $scope.sirensArray.push(submittedSiren);
+      // $scope.sirensArray.push($scope.siren);
   }
 
 
