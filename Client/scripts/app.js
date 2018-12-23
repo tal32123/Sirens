@@ -10,7 +10,7 @@
 
         $scope.severityLevels = [1, 2, 3, 4, 5];
 
-        $scope.kuki = function () {
+        $scope.submit = function () {
 
             // var sirenClass = {
             //     description: $scope.issueName,
