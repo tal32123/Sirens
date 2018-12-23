@@ -2,23 +2,25 @@
 
     var app = angular.module("myapp", []);
 
-    app.controller("sirenController", ($scope) => {
+    app.controller("sirenController", ($scope) =>
+    {
         $scope.sirensArray = [];
 
-        var siren = {
-            description: $scope.issueName,
-            severity: $scope.severity,
-            start: $scope.issueDate,
-            end: $scope.issueEnd,
-            id: chance.guid(),
-        };
+
 
         $scope.severityLevels = [1, 2, 3, 4, 5];
 
-        $scope.siren = siren;
+        $scope.kuki = function () {
 
+            // var sirenClass = {
+            //     description: $scope.issueName,
+            //     severity: $scope.severity,
+            //     start: $scope.issueDate,
+            //     end: $scope.issueEnd,
+            //     id: chance.guid(),
+            // };
+            // $scope.siren = sirenClass;
 
-        $scope.submit = function () {
             var identity = chance.guid();
             var submittedSiren = {
                 description: $scope.issueName,
@@ -27,8 +29,15 @@
                 end: $scope.issueEnd,
                 id: identity,
             };
-            console.log($scope.sirensArray);
+            console.log("siren array = ");
+            console.log( $scope.sirensArray)
+            console.log("siren = ")
+
+            console.log("submitted siren = ");
+            console.log(submittedSiren)
+            //$scope.sirensArray.push(siren);
             $scope.sirensArray.push(submittedSiren);
+
         }
 
 
