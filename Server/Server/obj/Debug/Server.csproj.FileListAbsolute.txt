@@ -1,0 +1,2 @@
+C:\Users\Tal\Documents\Sirens\Server\Server\obj\Debug\Server.csprojAssemblyReference.cache
+C:\Users\Tal\Documents\Sirens\Server\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache

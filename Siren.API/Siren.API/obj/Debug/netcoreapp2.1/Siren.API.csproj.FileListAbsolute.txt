@@ -1,0 +1,14 @@
+C:\Users\Tal\Documents\Sirens\Siren.API\Siren.API\obj\Debug\netcoreapp2.1\Siren.API.csprojAssemblyReference.cache
+C:\Users\Tal\Documents\Sirens\Siren.API\Siren.API\obj\Debug\netcoreapp2.1\Siren.API.csproj.CoreCompileInputs.cache
+C:\Users\Tal\Documents\Sirens\Siren.API\Siren.API\obj\Debug\netcoreapp2.1\Siren.API.RazorAssemblyInfo.cache
+C:\Users\Tal\Documents\Sirens\Siren.API\Siren.API\obj\Debug\netcoreapp2.1\Siren.API.RazorAssemblyInfo.cs
+C:\Users\Tal\Documents\Sirens\Siren.API\Siren.API\obj\Debug\netcoreapp2.1\Siren.API.AssemblyInfoInputs.cache
+C:\Users\Tal\Documents\Sirens\Siren.API\Siren.API\obj\Debug\netcoreapp2.1\Siren.API.AssemblyInfo.cs
+C:\Users\Tal\Documents\Sirens\Siren.API\Siren.API\bin\Debug\netcoreapp2.1\Siren.API.deps.json
+C:\Users\Tal\Documents\Sirens\Siren.API\Siren.API\bin\Debug\netcoreapp2.1\Siren.API.runtimeconfig.json
+C:\Users\Tal\Documents\Sirens\Siren.API\Siren.API\bin\Debug\netcoreapp2.1\Siren.API.runtimeconfig.dev.json
+C:\Users\Tal\Documents\Sirens\Siren.API\Siren.API\bin\Debug\netcoreapp2.1\Siren.API.dll
+C:\Users\Tal\Documents\Sirens\Siren.API\Siren.API\bin\Debug\netcoreapp2.1\Siren.API.pdb
+C:\Users\Tal\Documents\Sirens\Siren.API\Siren.API\obj\Debug\netcoreapp2.1\Siren.API.RazorTargetAssemblyInfo.cache
+C:\Users\Tal\Documents\Sirens\Siren.API\Siren.API\obj\Debug\netcoreapp2.1\Siren.API.dll
+C:\Users\Tal\Documents\Sirens\Siren.API\Siren.API\obj\Debug\netcoreapp2.1\Siren.API.pdb
